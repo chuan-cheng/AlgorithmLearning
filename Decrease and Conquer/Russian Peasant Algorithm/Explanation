@@ -1,0 +1,22 @@
+Russian Peasant Algorithm
+
+Introduction
+An multiplying two numbers by doubling the first number and halving the second number repeatedly till the second number becomes 0.
+In the process whenever the second number become odd, we add the first number to result(result is initialized as 0).
+
+Explanation
+axb = (ax2)x(b/2)
+for even values of b: axb = (ax2)x(b/2)
+for odd values of b: axb = (ax2)x (b-1)/2 + a
+
+
+Pesudocode
+1)Initialize result 'res' as 0
+2)Do the following while 'b' is greater than 0
+  a)If 'b' is odd, add 'a' to 'res'
+  b)Double 'a' and halve 'b'
+3)Return 'res'
+
+Complexity
+Worst case time complexity: Θ(logn)
+Space complexity: Θ(1)
