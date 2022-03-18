@@ -1,2 +1,2 @@
 # AlgorithmLearning
-Xtc's Path to learn algorithm
+XTC's Path to learn algorithm
