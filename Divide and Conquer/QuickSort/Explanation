@@ -2,3 +2,12 @@ QuickSort picks an element as pivot and partitions the given array around the pi
 Key process in QuickSort is partition().
 Target of partition: given an array and an element x of array as pivot, put x at its correct position in sorted array and put all smaller elements(smaller
 than x)before x, and put all greater elements(greater than x)after x.
+Pseudocode for recursive QuickSort function:
+quicksort(arr[], low, high)
+{
+  if (low < high)
+  {
+  quicksort(arr[],low,pi-1)
+  quicksort(arr[],pi+1,high)
+  }
+}
